@@ -7,4 +7,11 @@ Things you can do out-of-the-(non-existent)-box:
 - Remove phone numbers from output;
 - Remove emails from output;
 
-More to come.
+(more to come)
+
+# purgelist
+Purges CSV table of all entries that match emails from suppression list.
+
+Usage:
+
+>python3 purgelist.py [INPUT_FILE] [SUPPRESSION_LIST] [RESULT_FILE]
